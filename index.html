@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Materialize css -->
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link type="text/css" rel="stylesheet" href="assets/css/styles.css"  media="screen,projection"/>
+  <title>Contáctanos</title>
+</head>
+<body>
+  <!-- modal open btn -->
+  <button 
+    data-target="contactUs" 
+    class="btn waves-effect waves-light grey-text text-darken-4 amber lighten-1 modal-trigger"
+  >
+    Contáctanos
+  </button>
+
+  <!-- modal structure -->
+  <div id="contactUs" class="modal black white-text">
+    <div class="modal-header">
+      <h4>CONTÁCTANOS</h4>
+      <a href="#!" class="circle modal-close btn-flat btn-large">
+        <i class="large material-icons white-text">close</i>
+      </a>
+    </div>
+    <div class="modal-content white">
+      <div class="container">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Nombre</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Apelido</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="telephone" type="text" class="validate">
+                <label for="telephone">Teléfono (+519...)</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="ruc" type="text" class="validate">
+                <label for="ruc">RUC</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <label>
+                  <input type="checkbox" class="filled-in amber" checked="checked" />
+                  <span>Aceptar <a class="amber-text text-lighten-1">Términos y condiciones</a></span>
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <Button
+                  class="btn-custom btn-large waves-effect waves-light grey-text text-darken-4 amber lighten-1"
+                >
+                  CONTÁCTANOS
+                </Button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-image hide-on-small-only"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
